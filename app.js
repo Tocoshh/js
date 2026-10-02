@@ -1,4 +1,6 @@
-const nameuser = "jhon";
-const lastname = "carter";
+let nombre = "Jordan";
+const DocumentoDeIdentidad = "76632102";
+let edad = 24;
+let EstaTrabajando = true;
 
-console.log(lastname)
+console.log(nombre,DocumentoDeIdentidad,edad,EstaTrabajando);
