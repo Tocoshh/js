@@ -1,14 +1,12 @@
-//Ejercicio 1: El Portero de la Discoteca (if / else)
-//Crea una variable let edad = 16;.
-//Escribe un condicional if que verifique si la edad es >= 18.
-//Si se cumple, imprime en consola: "Puedes pasar".
-//Si no se cumple (else), imprime: "Eres menor, vete a casa".
-//Prueba cambiando la edad a 20 y vuelve a ejecutar.
-
-let edad = 16;
-if (edad >= 18) {
-    console.log("Puede pasar");
+//Crea dos variables: const usuario = "admin"; y const password = "1234";.
+//Escribe un if que pregunte si el usuario es === "admin" Y (&&) el password es === "1234".
+//Si ambas son verdad, imprime: "Acceso concedido".
+//Si no, imprime: "Credenciales incorrectas".
+const usuario = "admin";
+const password = "1234";
+if (usuario === "admin" && password === "1234"){
+    console.log("Acceson concedido");
 }
 else{
-    console.log("Eres menor,vete a casa");
+    console.log("Credenciales incorrectas");
 }
