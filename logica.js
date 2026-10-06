@@ -5,7 +5,7 @@
 const usuario = "admin";
 const password = "1234";
 if (usuario === "admin" && password === "1234"){
-    console.log("Acceson concedido");
+    console.log("Acceso concedido");
 }
 else{
     console.log("Credenciales incorrectas");
